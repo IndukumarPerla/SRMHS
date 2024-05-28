@@ -129,8 +129,8 @@ nav {
 }
 
 .scroll-button i {
-  width: 50%; /* Adjust the icon size as needed */
-  height: 50%; /* Adjust the icon size as needed */
+  width: 70%; /* Adjust the icon size as needed */
+  height: 70%; /* Adjust the icon size as needed */
   fill: white;
 }
 
@@ -151,71 +151,6 @@ h2{
 
 p{
   font-size: 20px;
-}
-
-/* Footer styles */
-footer {
-  margin-top: 8%;
-  background-color: #000;
-  color: #fff;
-  padding: 20px 0;
-  text-align: left;
-}
-
-.footer-content {
-  margin-bottom: 20px;
-}
-
-.footer-content h2,
-.footer-content p {
-  margin-left: 80px;
-}
-
-.footer-content h2 {
-  font-size: 32px;
-  margin-bottom: 10px;
-  text-align: left;
-}
-
-.footer-content p {
-  font-size: 14px;
-  font-weight: 150;
-}
-
-.socials {
-  margin-top: 20px;
-  margin-left: 4em;
-}
-
-.socials a {
-  margin: 20px;
-  color: #09B451;
-}
-
-.socials i {
-  font-size: 24px;
-}
-
-.footer-menu {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 10px;
-}
-
-.footer-menu p {
-  font-size: 16px;
-  text-align: left;
-}
-
-.footer-menu span a:link {
-  color: #09B451;
-  text-decoration: none;
-}
-
-.footer-menu span a:visited {
-  color: #09B451;
-  text-decoration: none;
 }
 @media (max-width: 992px) {
   .container {
