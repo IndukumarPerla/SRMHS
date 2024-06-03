@@ -95,6 +95,11 @@ nav ul li a {
   display: block;
 }
 
+nav ul li a .dropdown-button {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
 nav ul li:hover a {
   background-color: #ffffff;
 }
@@ -109,11 +114,12 @@ nav ul li ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  width: 20; /* Update this line */
+  width: auto; /* Adjust width to fit content */
 }
 
 nav ul li:hover ul {
   display: block;
+  background-color: #ffffff;
 }
 
 nav ul li ul li a {
@@ -125,6 +131,20 @@ nav ul li ul li a:hover {
   background-color: #f0f0f0;
 }
 
+@media (max-width: 768px) {
+  nav ul {
+    display: block;
+  }
+  
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav ul li ul {
+    position: static;
+  }
+}
 .hero {
   display: flex;
   justify-content: space-between;
