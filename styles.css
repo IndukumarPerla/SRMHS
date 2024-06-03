@@ -96,12 +96,14 @@ nav ul li a {
 }
 
 nav ul li:hover a {
-  background-color: #f0f0f0;
+  background-color: #ffffff;
 }
 
 nav ul li ul {
   display: none;
   position: absolute;
+  width: 15px;
+  height: 15px;
   top: 100%;
   left: 0;
   background-color: white;
