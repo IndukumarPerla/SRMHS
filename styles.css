@@ -102,8 +102,6 @@ nav ul li:hover a {
 nav ul li ul {
   display: none;
   position: absolute;
-  width: 15px;
-  height: 15px;
   top: 100%;
   left: 0;
   background-color: white;
@@ -111,6 +109,7 @@ nav ul li ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  width: auto; /* Update this line */
 }
 
 nav ul li:hover ul {
@@ -119,6 +118,7 @@ nav ul li:hover ul {
 
 nav ul li ul li a {
   padding: 10px 10px;
+  white-space: nowrap; /* Prevent text wrapping */
 }
 
 nav ul li ul li a:hover {
